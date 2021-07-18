@@ -1,0 +1,8 @@
+.root {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.root:hover {
+    color: #FF675C;
+}

@@ -1,0 +1,11 @@
+.root {
+    color: #F5F5F5;
+    margin: 2rem 0;
+}
+
+@media(min-width: 768px) {
+    .root {
+        width: 70%;
+        margin: 2rem auto;
+    }
+}

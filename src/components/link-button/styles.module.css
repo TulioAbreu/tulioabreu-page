@@ -1,0 +1,12 @@
+.root {
+    color: #F5F5F5;
+    padding: 4px 12px;
+    border: solid #FFF 1px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.root:hover {
+    color: #FF675C;
+    border: solid #FF675C 1px;
+}

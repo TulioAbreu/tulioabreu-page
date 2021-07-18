@@ -1,0 +1,41 @@
+[
+    {
+        "name": "ShazowBot",
+        "technologies": [
+            "Node",
+            "MongoDB"
+        ],
+        "description": "Implementação do meu bot pessoal para plataformas diversas de comunicação (Discord, Twitch, etc.). O foco princiapl desse projeto é flexibilidade o suficiente para usar o mesmo código para diferentes plataformas que possam vir a ser adicionadas. O bot possui suporte criação de comandos genéricos com contadores e variáveis, além de possuir comandos \"nativos\" com funcionalidades diversas.",
+        "repositoryUrl": "https://github.com/TulioAbreu/shazow-bot"
+    },
+    {
+        "name": "PokedexJS",
+        "technologies": [
+            "React",
+            "Node",
+            "MongoDB",
+            "Bootstrap"
+        ],
+        "description": "Aplicação web desenvolvida para a disciplina de Gerência de Dados da Web, na universidade. Esta aplicação é basicamente um repositório de buscas de dados sobre Pokémon. Todos os dados presentes nas páginas são extraídos e atualizados a partir de outras páginas da web de forma automática. Também foi implementado um mecanismo de armazenamento que funciona como uma espécie de cache temporário, para evitar repetidas requisições similares nas mesmas páginas.",
+        "repositoryUrl": "https://github.com/TulioAbreu/pokedex-js"
+    },
+    {
+        "name": "URI Online Judge",
+        "technologies": [
+            "C++",
+            "Haskell",
+            "Python"
+        ],
+        "description": "Este é um repositório onde guardo as minhas soluções submetidas no site UriOnlineJudge. Este site contém diversos problemas de programação para serem resolvidos.",
+        "repositoryUrl": "https://github.com/TulioAbreu/uri-online-judge"
+    },
+    {
+        "name": "GameProject",
+        "technologies": [
+            "C++",
+            "SFML"
+        ],
+        "description": "Pequeno projeto pessoal de um jogo. O objetivo principal do projeto é ver, na prática, como algumas partes de jogos podem funcionar.",
+        "repositoryUrl": "https://github.com/TulioAbreu/game-project"
+    }
+]

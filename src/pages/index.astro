@@ -1,0 +1,52 @@
+---
+import { About } from '../layouts/about/index.jsx';
+import { Contact } from '../layouts/contact/index.jsx';
+import { Education } from '../layouts/education/index.jsx';
+import { Portfolio } from '../layouts/portfolio/index.jsx';
+import { BuiltWith } from '../layouts/built-with/index.jsx';
+import { Divider } from '../components/divider/index.jsx';
+import { Section } from '../components/section/index.jsx';
+---
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Marco Túlio</title>
+    <meta name="description" content="Página pessoal de um desenvolvedor junior que ainda está se desenvolvendo. Informações básicas, portfolio e contatos.">
+    <link rel="icon" type="image/svg+xml" href="/favicon.png">
+    <link rel="stylesheet" href="/style/global.css">
+    <link rel="stylesheet" href="/style/home.css">
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-159381695-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159381695-1');
+    </script>
+    <style>
+        body {
+            font-family: "Roboto Condensed", sans-serif;
+            background-color: #1A1A1A;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <About />
+        <Divider />
+        <Portfolio />
+        <Divider />
+        <Education />
+        <Divider />
+        <Section>
+            <Contact
+                linkedinHref="https://www.linkedin.com/in/marco-t%C3%BAlio-oliveira-abreu-840599190/"
+                githubHref="https://github.com/tulioabreu/"
+                emailHref="mailto:marco-tulioabreu@hotmail.com"
+            />
+            <BuiltWith />
+        </Section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,13 @@
+.root {
+    color: #F5F5F5;
+    font-weight: bold;
+}
+
+h2.root {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

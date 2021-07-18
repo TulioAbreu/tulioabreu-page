@@ -1,0 +1,28 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.techs {
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+
+.description {
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.linkButton {
+    justify-content: space-between;
+    margin-top: auto;
+    align-self: end;
+}
